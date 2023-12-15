@@ -2,7 +2,7 @@ import './css/app.css'
 import cardsData from "./cardsData"
 import { useState } from 'react';
 import ResetButton from './components/ResetButton.jsx';
-import Score from './components/score.jsx';
+import Score from './components/Score.jsx';
  
 function App() {
 
