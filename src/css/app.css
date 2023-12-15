@@ -1,0 +1,47 @@
+body div{
+    text-align: center;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 40%;
+    height: 50vh;
+    align-items: center;
+    margin: 0 auto;
+    gap:5px;
+    justify-items: center;
+
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 70%;
+    height: 100%;
+    color:#ffffff;
+    background-color: aquamarine;
+    border-radius: 50%;
+
+}
+
+.material-symbols-outlined{
+    font-size: 55px;
+}
+
+.card.down{
+    background-color: lightgreen;
+    cursor: pointer;
+
+}
+
+.card.selected{
+    background-color:khaki;
+
+}
+
+
